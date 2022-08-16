@@ -1,0 +1,20 @@
+
+.login-wrap{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #FF8FB1;
+	height: 100vh;
+background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.sign-up-htm{
+	justify-content: center;
+	align-items: center;
+	display: block;
+	margin-top: 10%;
+	height: 400px;
+}
+.input{
+	border-radius: 20px;
+}

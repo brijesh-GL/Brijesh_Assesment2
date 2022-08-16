@@ -1,0 +1,201 @@
+/* * {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    position: relative;
+}
+
+.nav-bar {
+    height: 10vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: white;
+    box-shadow: 5px 5px 10px 5px rgba(67, 80, 67, 0.6);
+    position: sticky;
+    top: 0;
+}
+
+.link-list {
+    display: flex;
+
+    align-items: center;
+   
+}
+
+.link-list li {
+    margin: 0px 30px;
+    list-style: none;
+   
+
+}
+
+/* .Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* .Logo img {
+    height: 40px;
+    width: 40px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #7D1E6A;
+    margin-right: 10px;
+    line-height: 10vh;
+   
+}
+
+.active {
+    color: #FF8FB1;
+} */ */
+
+.LeaderBoard.table {
+    margin-top: 100px;
+    padding: 0px 10px;
+    /* display: grid; */
+
+    justify-content: space-between;
+    /* place-items: center; */
+    /* border: 1px solid crimson; */
+}
+.LeaderBoard .title{
+    display: flex;
+}
+
+.LeaderBoard {
+    background-color: #3bdff5;
+    background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    padding: 20px 100px;
+}
+
+.LeaderBoard h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.Rank {
+    background-color: #37E2D5;
+    padding: 30px 100px;
+}
+
+.Rank.table {
+    margin-top: 100px;
+    padding: 0px 10px;
+    /* display: grid; */
+
+    justify-content: space-between;
+    /* place-items: center; */
+    /* border: 1px solid crimson; */
+}
+
+.Rank h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.Age.table {
+    margin-top: 100px;
+    padding: 0px 10px;
+    /* display: grid; */
+
+    justify-content: space-between;
+    /* place-items: center; */
+    /* border: 1px solid crimson; */
+}
+.Age {
+    background-color: #006E7F;
+    padding: 30px 100px;
+}
+.Age h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.Name {
+    background-color: #9772FB;
+    padding: 30px 100px;
+}
+.Name h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.title img{
+    height:70px;
+    width:80px;
+    margin-right: 20px;
+}
+.rank img{
+    height:70px;
+    width:80px;
+    margin-right: 20px;
+}
+.rank{
+    display: flex;
+    justify-content: center;
+}
+#check-btn{
+    line-height: 10vh;
+    /* float: right; */
+   display: none;
+}
+#check-btn:checked ~ ul{
+    left:0;
+}
+@media(max-width:700px){
+    #check-btn{
+        display: inline-block;
+    }
+    ul .link-list{
+        display: block;
+        background-color:#607D8B;
+        position: fixed;
+        top:10vh; 
+        width: 50%;
+        height: 100vh;
+        left:0%;
+        padding-top: 20px;
+    }
+    .link-list li {
+        margin: 0px 10px;
+        list-style: none;
+      
+    
+    }
+}
+
+#check{
+    display: none;
+}
+.menu{
+    display: flex;
+}

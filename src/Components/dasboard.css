@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    max-height: 100vh;
+    max-width: 100%;
+    background-color: aquamarine;
+}
+.profileInformation{
+    margin:auto;
+    background-color: bisque;
+    padding: 0 5px;
+    width: 400px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+.form{
+    display: grid;
+    place-items: center;
+   
+    padding-left: 10px 20px;
+}
+form{
+    background-color: aquamarine;
+    margin: 50px 0px;
+    padding: 20px 40px;
+}
+form button{
+   display: grid;
+   place-items: center;
+
+}
+.{
+   margin-top: 20px;
+   margin-left: 30%;
+   height: 60px;
+   width: 80px;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   border-radius: 20px;
+   background-color: whitesmoke;
+   
+}
+.card-body{
+width: 400px;
+height: 300px;
+color: white;
+background-color: #09008a;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.Content{
+    display: inline-block;
+    flex-wrap: wrap;
+    margin: 5px ;
+}
+.card{
+    background-color: blue;
+    
+}
+h4{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.button{
+    height: 40px;
+    width: 180px;
+    padding: 2px 5px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.button:hover{
+    background-color: yellow;
+    transform: scale(1.2);
+}
+h2 img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+h1 img{
+    height: 60px;
+    width: 80px;
+}
+h1{
+    margin-top: 20px;
+}
